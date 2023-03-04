@@ -10,7 +10,6 @@
     <title>AppSport</title>
   </head>
   <body class="bg-gray-800">
-    <h1 class="font-bold text-xl underline">user</h1>
         <div class="fixed bottom-0 w-full bg-gray-800 text-white p-4 flex h-24 border-t-2 border-gray-700">
           <div class="w-full flex items-center">
             <a href="../index.html" class="w-full flex justify-around">
@@ -35,5 +34,95 @@
             </a>
           </div>
         </div>
+
+        <main class="mx-5">
+          <div id="profil_user" class="flex w-full justify-around pt-20">
+            <div id="user_description" class="text-purple-100 font-thin flex flex-col items-end">
+              <h1 class="text-3xl tracking-widest font-normal">Marta,</h1>
+              <h2 class="font-light tracking-widest">"La Conquérente"</h2>
+              <p>3448 points de succès</p>
+              <h3>Niveau 82</h3>
+            </div>
+            <div id="profile_picture" class="w-28 h-28 overflow-hidden rounded-full">
+              <img src="../images/profilepic.jpg" alt="" class="rounded-full object-cover">
+            </div>
+          </div>
+
+          <div id="buttons" class="flex gap-4 flex-col pt-8">
+            <button class="py-2 w-full bg-purple-500 text-purple-100 uppercase rounded-full shadow-xl hover:bg-purple-400 active:bg-purple-800  tracking-widest">mes programmes</button>
+            <button class="py-2 w-full bg-purple-500 text-purple-100 uppercase rounded-full shadow-xl hover:bg-purple-400 active:bg-purple-800  tracking-widest">modifier le profil</button>
+            <button class="py-2 w-full bg-purple-500 text-purple-100 uppercase rounded-full shadow-xl hover:bg-purple-400 active:bg-purple-800  tracking-widest">lier aux réseaux sociaux</button>
+          </div>
+
+          <div id="liste_titre" class="py-10 text-center flex flex-col gap-6">
+            <h4 class="text-purple-100 text-lg text-center uppercase tracking-widest font-light">Les honorables titres gagnés</h4>
+            <div class="text-purple-100 font-light">
+              <div class="flex justify-between">
+                <h5 id="nom_titre">"La Conquérente"</h5>
+                <p class="font-thin">180 points</p>
+              </div>
+              <p id="accomplissement" class="font-thin italic text-sm">30 jours non-stop de sport</p>
+            </div>
+            <div class="text-purple-100 font-light">
+              <div class="flex justify-between">
+                <h5 id="nom_titre">"La Reine des Squats"</h5>
+                <p class="font-thin">200 points</p>
+              </div>
+              <p id="accomplissement" class="font-thin italic text-sm">Terminer le challenge "Squat Mania" 5 fois</p>
+            </div>
+            <div class="text-purple-100 font-light">
+              <div class="flex justify-between">
+                <h5 id="nom_titre">"La Coureuse du Dimanche"</h5>
+                <p class="font-thin">100 points</p>
+              </div>
+              <p id="accomplissement" class="font-thin italic text-sm">Terminer le challenge "Courir une fois par semaine"</p>
+            </div>
+            <a href="#" class="text-purple-300 font-thin uppercase text-xs tracking-widest">Voir plus</a>
+          </div>
+
+          <div id="liste_prog_accomplis" class="pb-10 text-center flex flex-col gap-6">
+            <h4 class="text-purple-100 text-lg text-center uppercase tracking-widest font-light">Les programmes terminés</h4>
+            <div class="text-purple-100 font-light">
+              <div class="flex justify-between">
+                <h5 id="nom_titre" class="uppercase">Squat Mania</h5>
+                <p class="font-thin">Accompli 5 fois</p>
+              </div>
+              <div class="flex justify-between">
+                <p id="accomplissement" class="font-thin italic text-sm">3 séances de squats de 15 minutes par semaine</p>
+                <p class="font-thin">200 points</p>
+              </div>
+            </div>
+            <div class="text-purple-100 font-light">
+              <div class="flex justify-between">
+                <h5 id="nom_titre" class="uppercase">Fin de l'hiver</h5>
+                <p class="font-thin">Accompli 1 fois</p>
+              </div>
+              <div class="flex justify-between">
+                <p id="accomplissement" class="font-thin italic text-sm">Remise en forme douce - 14 jours</p>
+                <p class="font-thin">150 points</p>
+              </div>
+            </div>
+            <div class="text-purple-100 font-light">
+              <div class="flex justify-between">
+                <h5 id="nom_titre" class="uppercase">Morning Booster</h5>
+                <p class="font-thin">Accompli 3 fois</p>
+              </div>
+              <div class="flex justify-between">
+                <p id="accomplissement" class="font-thin italic text-sm">5 minutes tout les matins - 7 jours</p>
+                <p class="font-thin">100 points</p>
+              </div>
+            </div>
+            <a href="#" class="text-purple-300 font-thin uppercase text-xs tracking-widest">Voir plus</a>
+          </div>
+
+          <div id="buttons" class="flex gap-4 flex-col">
+            <h1 class="uppercase text-red-500 tracking-widest text-center">danger zone</h1>
+            <button class="py-2 w-full bg-red-500 text-purple-100 uppercase rounded-full shadow-xl hover:bg-purple-400 active:bg-purple-800  tracking-widest">désactiver le compte</button>
+            <button class="py-2 w-full bg-red-500 text-purple-100 uppercase rounded-full shadow-xl hover:bg-purple-400 active:bg-purple-800  tracking-widest">supprimer le compte</button>
+          </div>
+
+          <div class="w-full h-28"></div>
+
+        </main>
   </body>
 </html>
